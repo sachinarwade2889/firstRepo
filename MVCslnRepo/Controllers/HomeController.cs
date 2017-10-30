@@ -15,7 +15,7 @@ namespace MVCslnRepo.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "Your application description page. New branch! pull request. exclude web config.";
 
             return View();
         }
